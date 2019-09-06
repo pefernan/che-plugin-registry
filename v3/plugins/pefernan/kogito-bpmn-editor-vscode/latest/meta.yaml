@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: pefernan
+name: kogito-bpmn-editor-vscode
+version: latest
+type: VS Code extension
+displayName: Kogito BPMN Editor - VS Code extension
+title: Kogito BPMN Editor - VS Code extension
+description: Kogito BPMN Editor - VS Code extension
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+category: Editor
+repository: https://pefernan.github.io/bpmn-editor
+firstPublicationDate: '2019-09-05'
+spec:
+  extensions:
+  - https://pefernan.github.io/bpmn-editor/bpmn-editor.vsix

@@ -9,6 +9,7 @@
 FROM alpine:3.10 AS builder
 RUN apk add --no-cache py-pip jq bash && pip install yq jsonschema
 
+
 COPY .htaccess README.md ./scripts/*.sh ./scripts/meta.yaml.schema /build/
 COPY /v3 /build/v3
 WORKDIR /build/
@@ -23,3 +24,4 @@ RUN mkdir /var/www/html/plugins
 COPY --from=builder /build/ /var/www/html/
 USER 0
 RUN chmod -R g+rwX /var/www/html/v3/plugins
+

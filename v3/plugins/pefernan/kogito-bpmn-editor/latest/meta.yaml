@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: pefernan
+name: kogito-bpmn-editor
+version: latest
+type: Che Editor
+displayName: Kogito BPMN Editor
+title: Kogito BPMN Editor
+description: Kogito BPMN Editor
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+category: Editor
+repository: https://pefernan.github.io/bpmn-editor
+firstPublicationDate: '2019-09-05'
+spec:
+  extensions:
+  - https://pefernan.github.io/bpmn-editor/bpmn-editor.vsix
