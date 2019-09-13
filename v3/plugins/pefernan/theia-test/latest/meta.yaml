@@ -2,10 +2,12 @@ apiVersion: v2
 publisher: pefernan
 name: theia-test
 version: latest
-type: Che Plugin
+type: Theia Plugin
 displayName: Theia test
 title: Theia test
 description: Theia test
+category: Other
+repository: https://pefernan.github.io/theia-test
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 firstPublicationDate: '2019-09-13'
 url:  http://pefernan.github.io/theia-test/theia-plugin-test.tar.gz
