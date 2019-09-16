@@ -12,3 +12,5 @@ icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 firstPublicationDate: '2019-09-13'
 url:  http://pefernan.github.io/theia-test/theia-plugin-test.tar.gz
 spec:
+    memoryLimit: 512M
+
