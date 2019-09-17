@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: pefernan
 name: kogito-bpmn-editor-vscode
-version: latest
+version: 0.0.2
 type: VS Code extension
 displayName: Kogito BPMN Editor - VS Code extension
 title: Kogito BPMN Editor - VS Code extension
