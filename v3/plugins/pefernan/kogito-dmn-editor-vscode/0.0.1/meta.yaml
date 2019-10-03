@@ -12,4 +12,4 @@ repository: https://pefernan.github.io/dmn-editor
 firstPublicationDate: '2019-09-05'
 spec:
   extensions:
-  - https://pefernan.github.io/bpmn-editor/dmn-editor_v1.vsix
+  - https://pefernan.github.io/dmn-editor/dmn-editor_v1.vsix
