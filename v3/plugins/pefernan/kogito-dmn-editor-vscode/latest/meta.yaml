@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: pefernan
+name: kogito-dmn-editor-vscode
+version: latest
+type: VS Code extension
+displayName: Kogito DMN Editor - VS Code extension
+title: Kogito DMN Editor - VS Code extension
+description: Kogito DMN Editor - VS Code extension
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+category: Editor
+repository: https://pefernan.github.io/dmn-editor
+firstPublicationDate: '2019-09-05'
+spec:
+  extensions:
+  - https://pefernan.github.io/bpmn-editor/dmn-editor_v1.vsix
